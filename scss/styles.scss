@@ -85,18 +85,24 @@ a {
   color: $white;
 }
 
+a:hover {
+  color: $lightBlue;
+}
+
 /*******************************
 
   Nav
 
 *******************************/
 
-// #mainNav {
-//   position: -webkit-sticky;
-//   position: sticky;
-//   top: 0;
-//
-// }
+#mainNav a {
+  transition: all .2s ease-in-out;
+}
+
+#mainNav a:hover {
+  color: $lightBlue;
+  transform: scale(1.1);
+}
 
 .navbar-custom {
   margin: 0;
@@ -388,21 +394,9 @@ ___________--------_________-----____------_____------------____-- */
   margin-top: 50px;
 }
 
-// .arrow-wrapper {
-//   display: none;
-// };
-//
-// .ps-description:hover {
-//   visibility: visible;
-// }
-
-// #background-img1 {
-//   background-image: url("../images/lady.jpg");
-// }
-
-// #background-img2 {
-//   background-image: url("../images/lady.jpg")
-// }
+.spacer {
+  margin-top: 50px;
+}
 
 /* ------------------------------------------
 main content wrapper

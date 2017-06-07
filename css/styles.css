@@ -5869,11 +5869,21 @@ a {
   background: #121C25;
   color: #FFF; }
 
+a:hover {
+  color: #45AEC7; }
+
 /*******************************
 
   Nav
 
 *******************************/
+#mainNav a {
+  transition: all .2s ease-in-out; }
+
+#mainNav a:hover {
+  color: #45AEC7;
+  transform: scale(1.1); }
+
 .navbar-custom {
   margin: 0;
   padding-top: 10px;
@@ -6097,6 +6107,9 @@ ___________--------_________-----____------_____------------____-- */
 
 .arrow-wrapper,
 .ps-description {
+  margin-top: 50px; }
+
+.spacer {
   margin-top: 50px; }
 
 /* ------------------------------------------
