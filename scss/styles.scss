@@ -64,7 +64,7 @@ p {
 }
 
 a {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .btn-primary {
@@ -96,12 +96,12 @@ a {
 
 *******************************/
 
-#mainNav {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+// #mainNav {
+//   position: -webkit-sticky;
+//   position: sticky;
+//   top: 0;
 
-}
+// }
 
 .navbar-custom {
   margin: 0;
@@ -119,8 +119,14 @@ a {
   color: $darkBlue;
 }
 
-.navbar-brand img {
-  width: 170px;
+.navbar-brand {
+  float: none;
+  padding-top: 0;
+  padding-bottom: 25px;
+}
+
+.navbar-right {
+  padding-top: 15px;
 }
 
 /*******************************
