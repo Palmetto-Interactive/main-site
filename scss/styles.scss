@@ -1,0 +1,406 @@
+
+/* Bootstrap Variables */
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+/* Import Bootstrap */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+/*******************************
+
+  Variables
+
+*******************************/
+
+$lightBlue: #45AEC7;
+$darkBlue: #121C25;
+$white: #FFF;
+$yellow: #F9CD31;
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+section, header {
+  padding: 200px 0 150px;
+
+}
+
+img {
+  max-width: 100%;
+}
+
+/*******************************
+
+  Typography
+
+*******************************/
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+a {
+  font-size: 20px;
+}
+
+.btn-primary {
+  font-size: 25px;
+  color: $lightBlue;
+  padding: 10px 40px;
+  background: $white;
+  border-color: $lightBlue;
+  border-radius: 10px;
+}
+
+.btn-default {
+  font-size: 25px;
+  color: $white;
+  padding: 10px 40px;
+  background: $lightBlue;
+  border-radius: 10px;
+  border: none;
+}
+
+.btn-default:hover {
+  background: $darkBlue;
+  color: $white;
+}
+
+/*******************************
+
+  Nav
+
+*******************************/
+
+#mainNav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+
+}
+
+.navbar-custom {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: $white;
+}
+
+.navbar-nav > li a {
+  color: $lightBlue;
+}
+
+.navbar-nav > li a:hover {
+  background-color: transparent;
+  color: $darkBlue;
+}
+
+.navbar-brand img {
+  width: 170px;
+}
+
+/*******************************
+
+  Header
+
+*******************************/
+
+#header {
+  position: relative;
+  text-align: center;
+  color: $white;
+  background-image: url("../images/header-banner.jpg");
+  background-size: cover;
+  box-shadow: inset 0px 0px 0 2000px rgba(0,0,0,0.5);
+}
+
+.carousel {
+  margin-top: 20px;
+}
+
+.caption h4 {
+  display: inline-block;
+  font-size: 30px;
+  padding: 15px 60px;
+  background-color: $yellow;
+}
+
+.header-btn {
+  margin-top: 80px;
+}
+
+/*******************************
+
+  Overview
+
+*******************************/
+
+#overview {
+  color: $white;
+  background-color: $lightBlue;
+
+  h1 {
+    margin-bottom: 70px
+  }
+}
+
+.overview-list {
+  text-align: center;
+}
+
+.overview-list a {
+  color: $white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.overview-list a:hover{
+  text-decoration: none;
+}
+
+.overview-list li {
+  font-size: 30px;
+  padding-bottom: 5px;
+  margin-bottom: 40px;
+  list-style: none;
+  transition: all .2s ease-in-out;
+}
+
+.overview-list li:hover {
+  color: $darkBlue;
+  transform: scale(1.5);
+}
+
+.overview-heading {
+  text-align: center;
+}
+
+/*******************************
+
+  Portfolio
+
+*******************************/
+
+#portfolio {
+  background-color: $white;
+}
+
+.more-info-btn {
+  text-align: center;
+}
+
+.odd-image {
+  margin-top: 100px;
+}
+
+/*******************************
+
+  Standards
+
+*******************************/
+
+#standards {
+  color: $white;
+  background-color: $darkBlue;
+
+  h1 {
+    margin-bottom: 70px;
+  }
+}
+
+.standards-heading {
+  text-align: center;
+}
+
+.standards-list li {
+  font-size: 30px;
+  padding-bottom: 40px;
+  list-style: none;
+}
+
+/*******************************
+
+  Footer
+
+*******************************/
+
+#footer {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  color: $white;
+  background: $lightBlue;
+  // z-index: -1;
+}
+
+.footer-heading {
+  text-align: center;
+
+  h1 {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+}
+
+.social-nav-wrapper {
+  color: $darkBlue;
+  margin-top: 50px;
+  padding-bottom: 20px;
+}
+
+.social-list {
+  display: flex;
+  justify-content: space-between;
+  text-align: right;
+}
+
+.social-list li {
+  display: inline-block;
+  font-size: 30px;
+  color: $darkBlue;
+  list-style: none;
+}
+
+
+/* _______----------_____-----_____------______------______-------
+
+--------------------------------------------
+Service Page
+--------------------------------------------
+
+___________--------_________-----____------_____------------____-- */
+
+
+/* ------------------------------------------
+services header
+-------------------------------------------*/
+
+#services-header {
+  color: $white;
+  text-align: center;
+  min-height: 500px;
+  background-image: url("../images/wood-banner.jpg");
+  background-size: cover;
+
+  h1 {
+    text-transform: uppercase;
+  }
+}
+
+/* ------------------------------------------
+purpose
+-------------------------------------------*/
+
+#purpose {
+  text-align: center;
+  background-color: $white;
+
+  h2 {
+    font-size: 45px;
+    color: $lightBlue;
+    margin-bottom: 25px;
+  }
+}
+
+/* ------------------------------------------
+our services
+-------------------------------------------*/
+
+#our-services {
+  padding-bottom: 0px;
+  background-color: $white;
+
+  h3 {
+    font-size: 45px;
+  }
+}
+
+.branding-ctr-text {
+  text-align: center;
+}
+
+.branding,
+.development {
+  color: $white;
+  padding: 40px;
+  background-color: $lightBlue;
+}
+
+.design,
+.search {
+  color: $white;
+  padding: 40px;
+  background-color: $darkBlue;
+}
+
+/* _______----------_____-----_____------______------______-------
+
+--------------------------------------------
+Story Page
+--------------------------------------------
+
+___________--------_________-----____------_____------------____-- */
+
+#story {
+  background-color: $white;
+}
+
+#bio {
+  background-color: $white;
+}
+
+.arrow-wrapper,
+.ps-description {
+  margin-top: 50px;
+}
+
+// .arrow-wrapper {
+//   display: none;
+// };
+//
+// .ps-description:hover {
+//   visibility: visible;
+// }
+
+// #background-img1 {
+//   background-image: url("../images/lady.jpg");
+// }
+
+// #background-img2 {
+//   background-image: url("../images/lady.jpg")
+// }
+
+/* ------------------------------------------
+main content wrapper
+-------------------------------------------*/
+
+#main-content {
+  position: relative;
+  z-index: 10;
+}
