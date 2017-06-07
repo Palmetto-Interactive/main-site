@@ -6009,15 +6009,11 @@ a:hover {
   position: sticky;
   bottom: 0;
   color: #2e3c40;
-  background: #FFF;
-  z-index: -1; }
+  background: #FFF; }
 
 .footer-heading {
-  text-align: center; }
-  .footer-heading h1 {
-    font-size: 80px; }
-  .footer-heading h2 {
-    font-size: 60px; }
+  text-align: center;
+  margin-top: 50px; }
 
 .social-nav-wrapper {
   color: #121C25;
@@ -6034,6 +6030,21 @@ a:hover {
   font-size: 30px;
   color: #121C25;
   list-style: none; }
+
+i.fa {
+  transition: all .2s ease-in-out; }
+
+i.fa-facebook:hover {
+  color: #3b5998; }
+
+i.fa-twitter:hover {
+  color: #0084b4; }
+
+i.fa-instagram:hover {
+  color: #cd486b; }
+
+i.fa-youtube-play:hover {
+  color: #bb0000; }
 
 /* _______----------_____-----_____------______------______-------
 
