@@ -5822,10 +5822,11 @@ body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
-  line-height: 24px; }
+  line-height: 24px;
+  color: #2e3c40; }
 
 section, header {
-  padding: 200px 0 150px; }
+  padding: 150px 0; }
 
 img {
   max-width: 100%; }
@@ -5889,7 +5890,7 @@ a {
   background-color: #FFF; }
 
 .navbar-nav > li a {
-  color: #45AEC7; }
+  color: #2e3c40; }
 
 .navbar-nav > li a:hover {
   background-color: transparent;
@@ -6104,5 +6105,38 @@ main content wrapper
 #main-content {
   position: relative;
   z-index: 10; }
+
+/* ------------------------------------------
+Contact Page
+-------------------------------------------*/
+#contact-header {
+  background-color: #45AEC7;
+  color: #FFF;
+  text-align: center; }
+  #contact-header h1 {
+    margin: 0; }
+  #contact-header p {
+    margin-bottom: 50px; }
+  #contact-header ul {
+    list-style-type: none; }
+  #contact-header li {
+    display: inline;
+    padding: 0 50px; }
+  #contact-header .fa {
+    font-size: 50px; }
+
+#contact-form {
+  position: relative; }
+  #contact-form form {
+    background-color: #121C25;
+    color: #FFF;
+    padding: 50px; }
+  #contact-form h2 {
+    position: relative;
+    top: 25px;
+    color: #F9CD31;
+    text-align: center;
+    margin: 0;
+    font-size: 90px; }
 
 /*# sourceMappingURL=styles.css.map */
