@@ -26,8 +26,8 @@ $body: #2e3c40;
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 26px;
   color: $body;
 }
 
@@ -56,11 +56,6 @@ h4 {
 h1 {
   font-size: 80px;
   text-transform: uppercase;
-}
-
-p {
-  font-size: 20px;
-  line-height: 40px;
 }
 
 a {
@@ -340,12 +335,18 @@ our services
 -------------------------------------------*/
 
 #our-services {
-  padding-bottom: 0px;
+  padding-top: 0;
+  padding-bottom: 0;
   background-color: $white;
 
   h3 {
     font-size: 45px;
   }
+
+  p {
+      padding: 0 90px;
+  }
+    
 }
 
 .branding-ctr-text {
@@ -462,4 +463,3 @@ Contact Page
   }
 
 }
-
