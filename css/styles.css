@@ -6002,8 +6002,9 @@ a {
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
-  color: #FFF;
-  background: #45AEC7; }
+  color: #2e3c40;
+  background: #FFF;
+  z-index: -1; }
 
 .footer-heading {
   text-align: center; }
